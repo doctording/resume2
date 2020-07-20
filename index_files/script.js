@@ -65,13 +65,13 @@ jQuery(document).ready(function($) {
         $(this).children('.item-remove').css('visibility', 'hidden');
     });
 
-    $('.unit-remove').click(function(event) {
-        $(this).closest(".info-unit").remove();
-    });
+    // $('.unit-remove').click(function(event) {
+    //     $(this).closest(".info-unit").remove();
+    // });
 
-    $('.item-remove').click(function(event) {
-        $(this).closest("li").remove();
-    });
+    // $('.item-remove').click(function(event) {
+    //     $(this).closest("li").remove();
+    // });
 
     $('.item-add').click(function(event) {
         var unit = $(this).closest(".info-unit");
